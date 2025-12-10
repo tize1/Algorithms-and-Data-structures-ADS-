@@ -2,4 +2,28 @@
 Descriptions:
 Given an array of Integers and an Integer target, this agorithm return the indices of two Intergers such that they add up to target.
 
+Input: 
+      - array of Integers
+      - target Integer
+
+Output: Two indices
+----------------------------------
+
+n = len(array)
+i = 0
+while i < n {
+    j = i
+    while j <= n{
+        if target == array[i] + array[j]
+            return (i,j)
+        else{
+            j = j+1
+        }
+    }
+    i = i+1
+}
+
+----------------------------------
+
+
   
